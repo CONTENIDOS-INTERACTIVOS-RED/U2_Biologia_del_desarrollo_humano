@@ -2,147 +2,197 @@
 .curso-main-container.pb-3
   BannerInterno(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'1. Bases genéticas del desarrollo humano'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 Se estima que el ser humano está conformado por 100 billones de células, todas ellas del tipo eucariota, que se caracterizan por tener un núcleo definido que aloja y protege la información genética, o ADN. El ADN es la molécula fundamental de la herencia, se encuentra en gran parte en el núcleo celular, pero se ha identificado ADN alojado en las mitocondrias (ADN mitocondrial).
+    p.mb-4 De acuerdo con las denominaciones en los estudios de embriología humana, la fase o etapa prenatal se describe como: aquella que ocurre en el vientre materno, en la que el embrión comienza su proceso de desarrollo hasta convertirse en un bebé completamente formado. Esta etapa incluye:
+    .bg-fondo-1.bg-full-width
+      div.px-5.pb-md-3.py-4
+      
+        TabsC.mb-5
+          .tabs-content.bg-gris-claro-2.border.px-4.p-md-5.py-3(titulo="Período germinal", :iconUrl="require('@/assets/curso/unidad/img-38.svg')")
+            .row
+              .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="fade-right")
+                figure
+                  img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')
+              .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0(data-aos="fade-left")
+                h4 Período germinal
+                p(data-aos="fade-up") Desde el momento de la fecundación, cuando un óvulo es fecundado por un espermatozoide y comienza a desplazarse hacia el útero, donde se implantará.
+          .tabs-content.bg-gris-claro-2.border.px-4.p-md-5.py-3(titulo="Período embrionario", :iconUrl="require('@/assets/curso/unidad/img-38.svg')")
+            .row
+              .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="fade-right")
+                figure
+                  img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
+              .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0(data-aos="fade-left")
+                h4 Período embrionario
+                p(data-aos="fade-up") Etapa en la que comienza la división de las células, según sus funciones, y que luego dará lugar a la estructura ósea, muscular y los diferentes órganos del bebé.
+          .tabs-content.bg-gris-claro-2.border.px-4.p-md-5.py-3(titulo="Período fetal", :iconUrl="require('@/assets/curso/unidad/img-38.svg')")
+            .row
+              .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="fade-right")
+                figure
+                  img(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
+              .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0(data-aos="fade-left")
+                h4 Período fetal
+                p(data-aos="fade-up") En la que los órganos se forman y maduran. Esta etapa de desarrollo comienza aproximadamente a las 12 semanas de gestación y termina con el nacimiento del bebé.
+
+        .row.mb-5
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-right")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Infancia y niñez
+                p.text-small.px-4.text-center.pb-2 Recién nacido y bebé, desde los 0 a los 2 años.
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-up")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Primera infancia
+                p.text-small.px-4.text-center.pb-2 Niño pequeño en edad preescolar, desde los 3 a los 5 años.
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-down")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Segunda infancia
+                p.text-small.px-4.text-center.pb-2 Niño en edad escolar, desde los 6 a los 11 años.
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-left")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Adolescencia
+                p.text-small.px-4.text-center.pb-2 Etapa de la adolescencia, desde los 12 años en adelante.
+
+    #t_1_1.titulo-segundo
+      div.d-flex
+        span.me-3 1.1  
+        h2 Etapas del desarrollo infantil: motor, cognitivo, social y emocional
+
+    p.mb-4 El psicólogo y biólogo Suizo Jean Piaget (1896- 1980), ha sido estimado como pionero en los estudios de la psicología evolutiva y considerado el Padre de la epistemología genética; dentro de los aportes a la psicología del desarrollo están los estadíos de la infancia, la teoría cognitiva constructivista y la explicación sobre el desarrollo de la inteligencia humana.     
+
+
+    .row.mb-4
+      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
+        div.d-flex.align-items-start.bg-amarillo-oscuro.p-4.mb-4(data-aos="fade-left")
+          p.pe-xl-3.mb-0(data-aos="fade-up") Sus investigaciones dan cuenta sobre los “patrones” de pensamiento, según la etapa de crecimiento; por tanto, la concepción de cada etapa y la determinación de las cualidades generales o genéricas, son esenciales para comprender dichos patrones y también para identificar los diferenciales. Esta clasificación ha sido útil para determinar las cualidades elementales por rango de edad, teniendo presente, que los cambios o modificaciones pueden ser alertas sobre el individuo. En la medicina, la psicología y la educación, estos patrones han sido relevantes para identificar algunas condiciones que deben ser atendidas. 
+        p(data-aos="fade-up") Dentro de los grandes aportes de Piaget, se encuentra que, durante los primeros años de vida, las capacidades mentales se modifican por fases distintas y que se van “modelando” en el transcurso de la vida hasta la adultez, lo que se denomina Fases de Desarrollo. Posteriormente, otros autores e investigadores generaron nuevas posturas frente a esta teoría que refutan, en parte, las explicaciones, porque están sustentadas en el determinismo biológico; sin embargo, esta teoría sigue siendo una base importante en la comprensión de la psicología evolutiva. 
+      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-9.png', alt='Texto que describa la imagen')
+
+    p.mb-4 Piaget, dividió el desarrollo cognoscitivo en 4 fases o etapas, <strong>en las que el pensamiento del infante resulta siendo una secuencia diferencial en las habilidades y formas cómo se organiza el conocimiento:</strong> 
+
+    .row.mb-5
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+        img.-mt-18px(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-7(data-aos="fade-right")
+        AcordionA(tipo="b")
+          .div(titulo="Fase sensoriomotora (0-2 años)")
+            p Los bebés aprenden a través de sus sentidos y movimientos. Desarrollan la comprensión de la permanencia del objeto, es decir, que los objetos existen incluso cuando no están visibles.
+          .div(titulo="Etapa preoperacional (2-7 años)")
+            p En esta etapa, los niños comienzan a usar el lenguaje y el pensamiento simbólico. Su razonamiento es egocéntrico y tienen dificultades para entender conceptos abstractos.
+          .div(titulo="Etapa de operaciones concretas (7-11 años)")
+            p Los niños empiezan a pensar lógicamente sobre eventos concretos. Pueden clasificar y ordenar objetos, su pensamiento aún está limitado a situaciones tangibles.
+          .div(titulo="Etapa de operaciones formales (12 años en adelante)")
+            p En esta fase, se desarrolla el pensamiento abstracto, permitiendo a los adolescentes razonar sobre situaciones hipotéticas y resolver problemas complejos.
 
     .row.mb-5.mx-0
-      .d-none.d-xl-block.col-4.px-0
-        img.h-100(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8.d-flex.align-items-center.bg-gris.p-4
-        p.mb-0(data-aos="fade-up") La composición del ADN está determinada por dos cadenas complementarias, que se enrollan entre sí, dando la apariencia como una escalera en forma de caracol; en realidad, a esta apariencia, se le conoce como doble hélice. Cada una de estas hebras, contiene una estructura esencial conformada por un azúcar (desoxirribosa), un fosfato y unida a cada azúcar, se encuentra una de las 4 bases nitrogenadas: adenina (A), citosina (C), guanina (G) o timina (T). Estas bases, funcionan como un “alfabeto de 4 letras”, por eso la secuencia de estas bases, determinan el mapa o el genoma del individuo y codifican información biológica; por ejemplo, las instrucciones para producir una proteína o molécula de ARN.
+      .col-12.col-xl-8.d-flex.align-items-center.bg-gris-claro-2.p-4(data-aos="fade-left")
+        p.mb-0(data-aos="fade-up")  Las etapas se relacionan generalmente con ciertos niveles de edad, pero el tiempo que dura una etapa muestra gran variación individual y cultural. De acuerdo con sus explicaciones, los niños organizan el conocimiento sobre el mundo por esquemas, que son acciones, operaciones mentales, conceptos y demás información sobre su mundo. 
+      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
+        img.h-100(src='@/assets/curso/unidad/img-11.png', alt='Texto que describa la imagen')
 
-    p.mb-5 Las dos hebras están unidas mediante enlaces químicos entre las bases, de la siguiente manera: enlaces de adenina con timina y enlaces de citosina con guanina, como se ve a continuación:
-
-    p.mb-3 <strong>Figura 1.</strong> Estructura del ADN
-    figure(data-aos="flip-up").mb-4
-      img.mb-2(src='@/assets/curso/unidad/img-11.png', alt='Texto que describa la imagen')
-      figcaption <strong>Nota.</strong> Tomado y adaptado de <a class="ui_link" href="https://www.genome.gov/es/genetics-glossary/Proyecto-Genoma-Humano">https://www.genome.gov/es/genetics-glossary/Proyecto-Genoma-Humano</a>
+    p.mb-5 A medida que va creciendo, el infante empieza a usar símbolos, como en el caso del lenguaje, mejora su forma de organizar el conocimiento, reorganiza y es capaz de diferenciar. <strong>En esa misma vía, Piaget señala dos principios:</strong>
 
 
-    .row.mb-4
-      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')  
-      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
-        div.d-flex.align-items-start.bg-amarillo.px-3.py-4(data-aos="fade-left")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-13.svg', alt='Texto que describa la imagen')
-          p.pe-xl-3(data-aos="fade-up") Entre los años 1990–2003, se avanzó con una gran iniciativa de colaboración internacional denominada Proyecto Genoma Humano, cuyo propósito fue descifrar (mapear y secuenciar) el mapa completo del ADN en los humanos, teniendo como referente el ADN de cientos de personas de todo el mundo, cultura, etnia, lo que permitió de manera única en la historia de la ciencia, reservar datos genómicos de la humanidad.
+    .row.position-relative.mb-4.py-4.bg-fondo-2.bg-full-width
+      div.px-4.px-md-5.py-md-3
+        SlyderA(tipo="b").bg-white
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold La organización
+              p Corresponde a esa función que se va modificando con el crecimiento, en la que integra patrones físicos o esquemas mentales hacia sistemas completos.
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
+              figure
+                img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.text-bold La adaptación
+              p Se relaciona con la capacidad de ajustar las estructuras mentales o conductas a las exigencias del entorno, contexto o ambiente.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
 
-    p.mb-4 Esta información ha sido clave para el abordaje de la medicina, la biomédica y la ingeniería genética; en pocas palabras, la comprensión de la herencia genética dejó de ser la misma.
+    p.mb-4 Piaget utilizó el modelo constructivista para explicar la adquisición del conocimiento bajo los siguientes conceptos:
 
-    .row.bg-gris.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-          h2.mb-4.pb-2 Proyecto genoma humano
-          p.mb-1 Para conocer más sobre el proyecto genoma humano, ingresar a la página de National Human Genoma Research Institute, en donde se alojan recursos de información y videos para la mayor comprensión de este gran proyecto:
-          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.hover-zoom(data-aos="zoom-in" style="width: 340px" href="https://www.youtube.com/watch?v=sQUEc7nS9Gk" target="_blank")
-            div.bg-rojo-claro(style="width: 48px" )
-              img.h-100.mx-auto(style="width: 26px" src='@/assets/componentes/video-icon.svg', alt='Texto que describa la imagen')
-            p.fs-14px.my-auto.p-2 <strong>Video.</strong> Estructura del ADN  
-          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.hover-zoom(data-aos="zoom-in" style="width: 340px" href="https://www.genome.gov/About-Genomics/Educational-Resources" target="_blank")
-            div.bg-azul-claro(style="width: 48px" )
-              img.h-100.mx-auto(style="width: 22px" src='@/assets/componentes/link-icon.svg', alt='Texto que describa la imagen')
-            p.fs-14px.my-auto.p-2 <strong>Sitio web.</strong> Recursos educativos  
-          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.hover-zoom(data-aos="zoom-in" style="width: 340px" href="https://www.genome.gov/genetics-glossary " target="_blank")
-            div.bg-azul-claro(style="width: 48px" )
-              img.h-100.mx-auto(style="width: 22px" src='@/assets/componentes/link-icon.svg', alt='Texto que describa la imagen')
-            p.fs-14px.my-auto.p-2 <strong>Sitio web.</strong> Glosarios
-        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
-
-    p.mb-4(data-aos="fade-up") Habiendo comprendido de qué se trata el ADN y su rol en la herencia, es clave entender que el ADN sufre cambios importantes durante el ciclo de vida de una célula. El <strong>ciclo celular</strong> es el sinónimo del ciclo de vida de una célula, en donde además de crecer y cumplir con sus funciones vitales, también se reproduce, generando nuevas células. 
-    p.text-bold.mb-4 El ciclo celular tiene las siguientes etapas:
-
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
-
-      .tarjeta.bg-white.p-4(x="70%" y="61%" numero="+")
-        .h5.mb-3 GAP 1 (G1)
-        p Es la etapa previa a la división o reproducción celular. Allí la célula crece, genera los insumos necesarios para mantener sus estructuras, para luego avanzar en la fase de duplicación del ADN donde requerirá nuevas moléculas y bases nitrogenadas. Adicionalmente, la célula crece en tamaño y sigue cumpliendo con sus funciones vitales.
-
-      .tarjeta.bg-white.p-4(x="21%" y="60%" numero="+")
-        .h5.mb-3 Fase de síntesis (S)
-        p En esta fase es cuando el ADN inicia su proceso de síntesis o duplicación. En este momento el ADN desarrolla el proceso mediante el cual dispondrá de un ADN duplicado para que, previo a la división o reproducción celular, cada célula hija disponga de la cantidad de ADN necesario. Durante esta fase, el ADN está en estado “desenrollado”, o sea que no se encuentran cromosomas dentro del núcleo celular.
-
-      .tarjeta.bg-white.p-4(x="44%" y="12%" numero="+")
-        .h5.mb-3 GAP 2 (G2)
-        p En esta fase, el ADN sufre un proceso de condensación, lo que significa que el ADN se asocia a proteínas denominadas Histonas, las cuales permiten conformar unidades empaquetadas denominadas Cromosomas. Cuando se condensa el ADN y se organiza el material genético, la célula está lista para la división celular.
-
-      .tarjeta.bg-white.p-4(x="52%" y="22%" numero="+")
-        .h5.mb-3 Fase de Meiosis o Mitosis (Fase M)
-        p Dependiendo del tipo de célula, esta entrará al ciclo de mitosis o meiosis.
-
-    .tarjeta.box-shadow.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/video-icon-circle.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-bold.mb-2 Ciclo Celular
-              p.text-small.pe-4.pe-lg-5.me-xxl-4 Para conocer más en detalle el funcionamiento del Ciclo Celular, lo invitamos a visualizar el video Ciclo Celular y sus fases – Interfase y Mitosis. 
-            .col-sm-auto
-              a.download-btn.boton.bg-morado.text-white(href="https://www.youtube.com/watch?v=w6iJZrI2SHQ" target="_blank")
-                span.text-small Ver video
-                i.fas.fa-arrow-right
-
-    .row.mb-4
-      .col-12.col-lg-7(data-aos="fade-right")
-        p.mb-4 Como se planteó anteriormente, hay dos tipos de reproducción o división celular:
-        AcordionA(tipo="b")
-          .div(titulo="Mitosis")
-            p Es elemental para el crecimiento y el mantenimiento de todos los tejidos y órganos, pues al finalizar las etapas, se generan dos células idénticas a la célula original. Las células que realizan la mitosis son somáticas, es decir, aquellas que conforman los tejidos y órganos del cuerpo y que son <strong>diploides</strong>, denominación asociada a la cantidad de cromosomas. Las células diploides mantienen la misma cantidad de cromosomas que la célula madre (2N).
-
-          .div(titulo="Meiosis")
-            p Es el proceso de reproducción que da origen a las células sexuales o gametos (óvulos y espermatozoides), las cuales más adelante darán origen a un nuevo ser vivo a través de la fecundación. Tanto el óvulo como el espermatozoide, cuentan con la mitad de su ADN, pues en la reproducción o división celular se generan cuatro células hijas, cada una con la mitad de los cromosomas que la célula original <strong>(células haploides)</strong>.
+    .row.mb-5
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
-        img.-mt-18px(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
-
-
-    p.mb-4 <strong>Figura 2.</strong> Comparación procesos de mitosis y meiosis
-    
-    img.mb-5(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
-
-    .tarjeta.box-shadow.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/link-icon-circle.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-bold.mb-2 Procesos de reproducción celular
-              p.text-small.pe-4.pe-lg-5.me-xxl-4 Para conocer más sobre la estructura celular y los procesos de reproducción celular, hacer lectura de: Gutiérrez, F. (2010). Biología: La célula. Firmas Press. Páginas 48 y 159.
-            .col-sm-auto(data-aos="flip-up")
-              a.download-btn.boton.bg-morado.text-white(href="https://elibro.net/es/ereader/tecnologicadeloriente/36344?page=48 " target="_blank")
-                span.text-small Ir al sitio
-                i.fas.fa-arrow-right
-
-    h3 Un poco de historia
+        img.-mt-18px(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-7(data-aos="fade-right")
+        AcordionA(tipo="b")
+          .div(titulo="Asimilación")
+            p Integración de información <strong>nueva</strong> adquirida desde la experiencia, se interpreta con esquemas mentales, dependiendo de la etapa o fase. Se incorporan elementos externos a estructuras preexistentes, permitiendo responder a un evento desconocido, desde experiencias previas, como referencia, para poder dotar de un sentido.
+          .div(titulo="Acomodación")
+            p Es la modificación de esquemas preexistentes debido a información o experiencia recién adquirida. Nuevos elementos hacen que los esquemas previos se reorganicen porque ya no resultan útiles.
 
     .row.mb-4.mx-0
-      .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4
-        p.mb-0(data-aos="fade-up") Hacia el siglo XVI y XVII y con la escasa revolución de los primeros microscopios, se hacían observaciones del semen humano y de otros animales, así como de células de otro tipo. Nicolás Hartsoeker, hizo un hallazgo denominado “Animalúnculos”, que describía que en la cabeza de los espermatozoides había un individuo en miniatura. De allí se planteó una explicación sobre la herencia, en donde se afirmaba que cada espermatozoide tenía un mini-humano que solo requería un lugar femenino para ser depositado y que de allí empezaría su crecimiento. 
-      .d-none.d-xl-block.col-4.px-0
-        img.h-100(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-left")
+        p.mb-0(data-aos="fade-up") Como resultado de los procesos de asimilación y acomodación, se logra una mayor adaptación del conocimiento y la información del medio; esa adaptación es la que Piaget concluye como inteligencia. Por tanto, <strong>el aprendizaje es un proceso activo y dinámico, que implica cambiar constantemente, para lograr un equilibrio.</strong>
+      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
+        img.h-100(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
+    p.mb-4.text-bold A continuación, se presentan algunos ejemplos donde observamos las diferencias entre la asimilación de la acomodación: 
 
-    p.mb-4 Esta explicación dio origen a los:
+    p.mb-3 <strong>Tabla 1</strong>. Tipos de alelos
 
-    .row.mb-4
-      .col-12.col-lg-7(data-aos="fade-right")
-        AcordionA(tipo="b")
-          .div(titulo="Espermistas")
-            p Naturalistas que, describieron que, desde el origen de la humanidad, Adán, tenía en su organismo toda la humanidad en miniatura, y que estos humanos se irían transmitiendo de padre a hijo.
+    .tabla-a.mb-5
+      table
+        thead
+          tr.bg-morado-oscuro
+            th.text-center ASIMILACIÓN
+            th.text-center ACOMODACIÓN
+        tbody
+          tr
+            td.px-lg-5.bg-morado-claro.border-bottom-gris Un niño que tiene un perro de raza grande y ve en la calle un perro de raza pequeña y con coloración distinta, afirma que eso no es un perro. 
+            td.px-lg-5.bg-gris-claro-3.border-bottom-gris El padre le explica que los perros pueden ser más grandes o pequeños y de diferentes colores. El niño modifica su concepto de perro.
+          tr
+            td.px-lg-5.bg-morado-claro Un bebé recibe por primera vez un biberón e intenta chuparlo, pues la experiencia con el pezón materno en la etapa de lactancia, lo ha preparado para usar objetos de esa manera. 
+            td.px-lg-5.bg-gris-claro-3 Con el uso a diario y reiterado, el bebé aprende a sostener el biberón para poder chuparlo, acción que no era necesaria con el seno materno, teniendo así una diferencia entre los dos objetos.
 
-          .div(titulo="Ovistas")
-            p Naturalistas que afirmaban que el pequeño humano se alojaba dentro del óvulo femenino, dado su tamaño (mucho más grande que un espermatozoide).
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
-        img.-mt-18px(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
+    #t_1_2.titulo-segundo
+      div.d-flex
+        span.me-3 1.2
+        h2 Crecimiento y desarrollo en la niñez
+    p.mb-4 El psicólogo y biólogo Suizo Jean Piaget (1896- 1980), ha sido estimado como pionero en los estudios de la psicología evolutiva y considerado el Padre de la epistemología genética; dentro de los aportes a la psicología del desarrollo están los estadíos de la infancia, la teoría cognitiva constructivista y la explicación sobre el desarrollo de la inteligencia humana.     
 
-    .row
-      .d-flex.align-items-center
-        div.d-flex.align-items-center.bg-gris.px-3.py-4
-          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-20.svg', alt='Texto que describa la imagen')
-          p.pe-xl-3.mb-0(data-aos="fade-up") Después del desarrollo tecnológico de los microscopios y de las explicaciones experimentales futuras sobre la herencia, ambas explicaciones, la de los espermistas y la de los ovistas, quedaron totalmente refutadas.
+
+    .row.bg-azul-1.bg-full-width.py-4.mb-5
+      div.px-5.pb-md-3.py-4.d-flex
+        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
+          h2.mb-4.pb-2 Crecimiento y desarrollo en la niñez
+          p.mb-1 El crecimiento y desarrollo en la niñez abarca diversos patrones, entre los que destacan los físicos, cognitivos, sociales y emocionales. Cada etapa presenta avances significativos que permiten a los niños comprender su entorno, establecer vínculos afectivos y desarrollar habilidades cognitivas y sociales. A continuación, en el PDF <strong>Crecimiento y desarrollo en la niñez</strong>, se exploran estos patrones por rangos de edad, destacando los hitos y capacidades clave que caracterizan el desarrollo infantil. 
+          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Crecimiento y desarrollo en la niñez.pdf')" target="_blank")
+            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Crecimiento y desarrollo en la niñez
+             
+        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
+          img.h-100(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
+
+    p.mb-5 Ahora, reflexione sobre las siguientes preguntas:
+
+    .row.mb-5.mx-0
+      .d-none.d-xl-block.col-3.px-0(data-aos="fade-right")
+        img.h-100(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-9.p-0.d-flex.flex-column.justify-content-center.align-items-center.bg-amarillo(data-aos="fade-left")
+        p.p-4.mb-0.text-bold.text-center.border-bottom-gris-2(data-aos="fade-up") ¿Qué sucede si a determinada edad, el niño o niña no desarrolla las capacidades o cualidades, según su etapa? <br> ¿Cómo actuar si presentan modificaciones evidentes de estos patrones? 
+        p.p-4.mb-0(data-aos="fade-up") Al respecto, la respuesta más común es acudir a un especialista que, a través de diagnósticos médicos, psicológicos o educativos, pueda determinar si existe alguna situación que comprometa al infante, desde cualquier dimensión de su desarrollo. 
+
+
+    .row.bg-azul-1.bg-full-width.py-4.mb-5
+      div.px-5.pb-md-3.py-4.d-flex
+        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
+          h2.mb-4.pb-2 Desarrollo de la niñez
+          p.mb-1 ¿Cómo influyen las distintas teorías y enfoques de autores como Montessori, Vygotski y Bronfenbrenner en el desarrollo cognitivo, social y emocional de los niños, y de qué manera pueden aplicarse estos principios en el entorno educativo actual para potenciar el aprendizaje y bienestar infantil? A continuación, en el PDF <strong>Desarrollo de la niñez</strong>, podrá conocer cada uno de los aportes de estos autores. 
+          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Desarrollo de la niñez.pdf')" target="_blank")
+            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Desarrollo de la niñez
+             
+        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
+          img.h-100(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
+
 </template>
 
 <script>

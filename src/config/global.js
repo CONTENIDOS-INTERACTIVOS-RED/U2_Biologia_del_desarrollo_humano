@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'inicio',
         icono: 'fas fa-home',
         titulo: 'Volver al inicio',
-        unidad: 'Unidad 1',
+        unidad: 'Unidad 2',
       },
       {
         nombreRuta: 'introduccion',
@@ -35,33 +35,59 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Bases genéticas del desarrollo humano',
+        titulo:
+          'Desarrollo físico, cognitivo y emocional en las etapas de la infancia y adolescencia',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo:
+              'Etapas del desarrollo infantil: motor, cognitivo, social y emocional',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Crecimiento y desarrollo en la niñez',
+            hash: 't_1_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Principios de genética humana y herencia',
+        titulo:
+          'Desarrollo del cerebro y plasticidad neuronal. Cambios físicos y emocionales en la adolescencia',
         desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Bases biológicas del desarrollo y diferenciación celular',
-        desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Factores genéticos y ambientales en el desarrollo humano',
-        desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'La intercomunicación de las neuronas: sinapsis ',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Definición y etapas de la adolescencia',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo:
+              'Trastornos del desarrollo: factores de riesgo y estrategias de intervención',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: '¿Es clave la estimulación temprana?',
+            hash: 't_2_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -89,7 +115,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Biologia desarrollo humano_U1.zip',
+        download: 'downloads/Biologia_desarrollo_humano_U2.zip',
       },
       {
         icono: 'fas fa-download',
@@ -106,156 +132,123 @@ export default {
   referencias: [
     {
       referencia:
-        'Árvelo, F. Cotte, C. Sojo, F. (2014). Células madre y Cáncer. Revista. Invest. clín vol.55 no.4 Maracaibo dic. 2014.',
+        'Apaza, E. A., Huamán, J. V., Ramírez, G. M., Segovia, D. S. y Suarez, M. A. (2017). Estudio de casos de niños con Trastornos del Neurodesarrollo: Trastorno del espectro autista, discapacidad intelectual y retraso global del desarrollo',
       link:
-        'https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0535-51332014000400008',
+        'https://www.researchgate.net/profile/Aime-Quispe/publication/341498580_ESTUDIO_DE_CASOS_DE_NINOS_CON_TRASTORNOS_DEL_NEURODESARROLLO_Trastorno_del_Espectro_Autista_Discapacidad_Intelectual_y_Retraso_Global_del_Desarrollo/links/5ec485f592851c11a87781eb/ESTUDIO-DE-CASOS-DE-NINOS-CON-TRASTORNOS-DEL-NEURODESARROLLO-Trastorno-del-Espectro-Autista-Discapacidad-Intelectual-y-Retraso-Global-del-Desarrollo.pdf',
     },
     {
       referencia:
-        'Ayala, F (2017). ¿Clonar Humanos? Ingeniería Genética y Futuro de la Humanidad (175p). Madrid, España: Alianza Editorial.',
-      link: 'e-libro',
-    },
-    {
-      referencia:
-        'Curtis H., Barnes N., Massarini A., Schnerck A., BIOLOGÍA. Edición 7º. Editorial Médica Panamericana (2008). Capítulo 8. Desarrollo: de la ejecución de un programa genético',
-      link: 'Se anexa PDF',
-    },
-    {
-      referencia:
-        'Förster, J. López, I. (2022). Neurodesarrollo humano: un proceso de cambio continuo de un sistema abierto y sensible al contexto. Revista Médica Clínica Las Condes',
+        'MEECE, J. (2000). Desarrollo del niño y del adolescente. Capítulo Teoría del desarrollo cognoscitivo de Piaget. Compendio para educadores',
       link:
-        'https://www.elsevier.es/es-revista-revista-medica-clinica-las-condes-202-articulo-neurodesarrollo-humano-un-proceso-cambio-S0716864022000724',
+        'https://www.guao.org/sites/default/files/portafolio%20docente/Teor%C3%ADa%20del%20desarrollo%20de%20Piaget.pdf',
     },
     {
       referencia:
-        'Gutiérrez, F. (2010). Capítulo 2: Reproducción Celular (48p). *Biología: la célula* (159 p). Firmas Press.',
-      link: 'e-libro',
-    },
-    {
-      referencia:
-        'Solari, A. J (2007). Capítulo 1. Desarrollo Histórico de la Genética Humana. Genética Humana: fundamentos y aplicaciones en medicina (568p.) Buenos Aires, Argentina: Médica Panamericana.',
+        'ORTEGA, C. FRANCO, J. (2010). Neurofisiología del aprendizaje y la memoria. Plasticidad Neuronal. Archivos de Medicina Vol. 6 No. 1:2',
       link:
-        'https://bibliotecas.unr.edu.ar/muestra/medica_panamericana/9789500602693.pdf',
+        'https://www.archivosdemedicina.com/medicina-de-familia/neurofisiologa-del-aprendizaje-y-la-memoria-plasticidad-neuronal.pdf',
+    },
+    {
+      referencia:
+        'Sierra, B. LEÓN, P. (2019). Plasticidad cerebral, una realidad neuronal. Rev Ciencias Médicas. 2019;23(4):599-609',
+      link: 'https://www.medigraphic.com/pdfs/pinar/rcm-2019/rcm194o.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Ácido desoxirribonucleico - ADN',
+      termino: 'Acomodación',
       significado:
-        'Es la molécula que contiene la información genética esencial para el desarrollo y funcionamiento de todos los seres vivos, así como de algunos virus. Su estructura se compone de dos cadenas de nucleótidos que forman una doble hélice. Cada nucleótido está formado por un azúcar (desoxirribosa), un grupo fosfato y una base nitrogenada (adenina, guanina, citosina o timina)',
+        'Concepto fundamental en la teoría del desarrollo cognitivo de Jean Piaget, que se refiere al proceso mediante el cual un individuo ajusta sus esquemas mentales para integrar nueva información o experiencias',
     },
     {
-      termino: 'Alelo',
+      termino: 'Adolescencia',
       significado:
-        'Es una de las diferentes versiones de un gen que se pueden encontrar en un organismo. Cada individuo hereda dos alelos para cada gen, uno de cada progenitor. Estos alelos pueden ser idénticos, lo que se denomina homocigoto, o diferentes, conocido como heterocigoto',
+        'Periodo del desarrollo humano que se sitúa entre la niñez y la adultez, caracterizado por intensos cambios biológicos, psicológicos y sociales. Inicia con la pubertad, que generalmente comienza entre los 10 y 13 años, y se extiende hasta los 19 o 21 años, dependiendo de diversas fuentes y contextos culturales',
     },
     {
-      termino: 'Alelo Dominante',
+      termino: 'Asimilación',
       significado:
-        'Es una forma de un gen que se expresa en el fenotipo de un organismo, incluso si solo hay una copia presente. Esto significa que, para que un rasgo asociado a un alelo dominante se manifieste, basta con que uno de los dos alelos heredados (uno de cada progenitor) sea dominante',
+        'Se refiere al proceso mediante el cual un organismo o individuo integra nueva información o elementos en estructuras preexistentes. En el ámbito psicológico, la asimilación fue introducida por Jean Piaget como parte de su teoría del desarrollo cognitivo. Este proceso implica la incorporación de nueva información a esquemas mentales ya existentes sin modificar estos esquemas',
     },
     {
-      termino: 'Alelo recesivo',
+      termino: 'Desarrollo Cognitivo',
       significado:
-        'A diferencia de un alelo dominante, un alelo recesivo necesita estar presente en dos copias para que su rasgo se exprese',
+        'Se refiere a la progresión de las capacidades intelectuales, que incluyen la percepción, el razonamiento, la memoria, el lenguaje y la resolución de problemas. Este proceso es esencial para el aprendizaje y se basa en la interacción entre el individuo y su entorno. A medida que los niños crecen, desarrollan habilidades tanto motoras como cognitivas que les permiten interactuar con su mundo de manera más efectiva',
     },
     {
-      termino: 'Autosoma',
+      termino: 'Desarrollo Emocional',
       significado:
-        'Tipo de cromosoma que no está involucrado en la determinación del sexo de un organismo. En los humanos los cromosomas del 1 al 22 son autosomas',
+        'Asociado con la capacidad de un niño para reconocer y manejar sus emociones y responder adecuadamente a las emociones de los demás. Es un proceso gradual e integrativo, comenzando desde el nacimiento y continuando a lo largo de la infancia y la adolescencia. A través de interacciones significativas con sus cuidadores y pares, los niños aprenden a identificar sus sentimientos y a desarrollar habilidades como la empatía y la regulación emocional',
     },
     {
-      termino: 'Bases nitrogenadas',
+      termino: 'Desarrollo Físico',
       significado:
-        'Son compuestos orgánicos esenciales que forman parte de los ácidos nucleicos, como el ADN y el ARN. Estas bases son fundamentales para la codificación de la información genética y se clasifican en dos grupos principales: purinas y pirimidinas',
+        'Se manifiesta a través de cambios significativos en las habilidades motoras, la fuerza, la resistencia y la salud general. Este desarrollo se puede dividir en diferentes etapas, según la edad y las necesidades específicas',
     },
     {
-      termino: 'Célula Diploide',
+      termino: 'Determinismo biológico',
       significado:
-        'Son todas las células humanas de tipo somáticas que tienen 23 pares de cromosomas. Cada uno de los cromosomas de los pares, proviene de uno de los progenitores',
+        'Pensamiento que sostiene que el comportamiento humano y los fenómenos sociales son el resultado directo de factores biológicos, principalmente genéticos. Esta perspectiva se ha utilizado para explicar diversas desigualdades sociales, como la pobreza, la violencia y las diferencias de género, atribuyendo estas condiciones a características innatas de los individuos o grupos',
     },
     {
-      termino: 'Célula Haploide',
+      termino: 'Estadios',
       significado:
-        'Son las células sexuales humanas (óvulos y espermatozoides) que contienen un solo juego de cromosomas. Son haploides al culminar el proceso de reproducción celular por Meiosis',
+        'Etapas son universales y se caracterizan por cambios cualitativos en la forma de pensar y entender el mundo',
     },
     {
-      termino: 'Célula Sexual',
+      termino: 'Infancia',
       significado:
-        'Son también denominadas gametos y fundamentales en la reproducción sexual de los organismos. Existen dos tipos principales de células sexuales: óvulos y espermatozoides. Son células haploides',
+        'Abarca desde el nacimiento hasta el inicio de la pubertad, generalmente considerado alrededor de los 11 a 14 años',
     },
     {
-      termino: 'Célula Somática',
+      termino: 'Inteligencia',
       significado:
-        'Son todas aquellas que constituyen la mayor parte de los tejidos y órganos en los organismos pluricelulares como los seres humanos',
+        'Capacidad de comprender, razonar, resolver problemas y adaptarse a nuevas situaciones. Se ha definido de diversas maneras a lo largo de la historia, abarcando desde habilidades cognitivas hasta aspectos emocionales y creativos',
     },
     {
-      termino: 'Cigoto',
+      termino: 'Intervención Educativa',
       significado:
-        'Es la primera etapa del desarrollo embrionario y se forma inmediatamente después de la fecundación (unión del óvulo y el espermatozoide). Es una célula unicelular que contiene el material genético de ambos progenitores, es decir, 46 cromosomas (23 de cada uno)',
+        'Conjunto de acciones planificadas y específicas diseñadas para abordar las necesidades educativas de los estudiantes. Su objetivo es facilitar el aprendizaje y el desarrollo integral del alumnado, especialmente en situaciones donde se identifican dificultades académicas, emocionales o conductuales',
     },
     {
-      termino: 'Cromosoma',
+      termino: 'Intervención Psicológica',
       significado:
-        'Son estructuras que se encuentran en el núcleo de las células eucariotas. Compuestas por ADN y proteínas. Los cromosomas son fundamentales para el almacenamiento y la transmisión de la información genética de un organismo en la reproducción celular',
+        'Aplicación de principios y técnicas psicológicas por parte de profesionales acreditados, con el objetivo de ayudar a individuos o grupos a comprender y superar problemas emocionales, conductuales o psicosociales. Esta práctica se basa en una evaluación exhaustiva de las dificultades del paciente y busca mejorar su bienestar general y sus relaciones interpersonales',
     },
     {
-      termino: 'Eucariota',
+      termino: 'Neurogénesis',
       significado:
-        'Corresponde al tipo de célula que tiene núcleo definido, rodeado por una membrana nuclear. Esta cualidad permite la clasificación taxonómica de organismos',
+        'Proceso mediante el cual se generan nuevas neuronas a partir de células madre y progenitoras. Este fenómeno es crucial durante el desarrollo embrionario, pero investigaciones recientes han demostrado que también ocurre en el cerebro adulto, aunque en menor medida',
     },
     {
-      termino: 'Fenotipo',
+      termino: 'Neuronas',
       significado:
-        'Son las características observables de un organismo: rasgos físicos, bioquímicos y conductuales, en interacción con el ambiente',
+        'Células altamente especializadas que constituyen la unidad funcional del sistema nervioso. Su principal función es recibir, procesar y transmitir información mediante señales eléctricas y químicas',
     },
     {
-      termino: 'Gen',
+      termino: 'Plasticidad Neuronal',
       significado:
-        'Unidad básica de herencia en los organismos, compuesta por una secuencia de nucleótidos en el ADN. Los genes son los responsables de codificar la información necesaria para la síntesis de proteínas',
+        'También conocida como neuroplasticidad, se refiere a la capacidad del sistema nervioso para cambiar su estructura y funcionamiento a lo largo de la vida. Este fenómeno es fundamental para el aprendizaje, la memoria y la recuperación de lesiones, permitiendo que las neuronas forman nuevas conexiones y se adapten a nuevas experiencias',
     },
     {
-      termino: 'Genotipo',
-      significado: 'Es la composición genética de los organismos',
-    },
-    {
-      termino: 'Heterocigoto',
+      termino: 'Poda Sináptica',
       significado:
-        'Es un organismo que tiene dos alelos diferentes para un mismo gen en sus cromosomas homólogos. Esto significa que, en un locus específico, uno de los alelos proviene del padre y el otro de la madre, resultando en una combinación de características genéticas distintas',
+        'Es un proceso biológico que ocurre en el cerebro, durante las etapas de desarrollo infantil y adolescente. Implica la eliminación de conexiones sinápticas que se consideran innecesarias o débiles, permitiendo así que las conexiones más fuertes se fortalezcan y optimicen la comunicación neuronal',
     },
     {
-      termino: 'Histonas',
+      termino: 'Psicología evolutiva',
       significado:
-        'Son proteínas fundamentales en la organización y regulación del ADN dentro de las células eucariotas. Estas proteínas permiten el empaquetamiento del ADN en cromosomas, lo que facilita su almacenamiento en el núcleo celular',
+        'Rama de la psicología que estudia el desarrollo humano, desde el nacimiento hasta la vejez. Su objetivo es comprender cómo los cambios psicológicos afectan a las personas en diferentes etapas de su vida y cómo estos cambios son influenciados por factores biológicos y ambientales',
     },
     {
-      termino: 'Homocigoto',
+      termino: 'Sinapsis',
       significado:
-        'Es lo contrario a heterocigoto. En este caso, es un organismo que tiene dos alelos idénticos para un mismo gen en sus cromosomas homólogos. Lo que significa que ambos alelos, heredados de cada progenitor, son iguales, lo que puede influir en la expresión de características específicas',
+        'Proceso en la comunicación neuronal, que permite la transmisión de impulsos nerviosos entre neuronas o entre una neurona y otra célula, como una célula muscular o glandular',
     },
     {
-      termino: 'Multicelular',
-      significado: 'Seres vivos compuestos por más de una célula',
-    },
-    {
-      termino: 'Mutación',
+      termino: 'Teoría cognitiva constructivista',
       significado:
-        'Cualquier cambio en la secuencia de ADN de un organismo, puede ocurrir de manera natural o ser inducida por factores externos como radiación o sustancias químicas. Estas alteraciones pueden tener diversas consecuencias en el organismo, clasificándose generalmente en tres categorías: beneficiosas, perjudiciales y neutras',
-    },
-    {
-      termino: 'Reproducción celular',
-      significado:
-        'Proceso mediante el cual una célula madre se divide para formar nuevas células hijas. Este proceso es esencial para el crecimiento, la reparación de tejidos y la reproducción en organismos unicelulares y multicelulares',
-    },
-    {
-      termino: 'Traducción de ADN',
-      significado:
-        'Proceso biológico que ocurre después de la transcripción del ADN por parte del ARN mensajero (ARNm); como resultado, se genera una cadena de aminoácidos, formando así una proteína. Este proceso ocurre en los ribosomas dentro del citoplasma de la célula y es fundamental para la expresión génica',
-    },
-    {
-      termino: 'Transcripción de ADN',
-      significado:
-        'Primer paso en la expresión genética, donde la información contenida en la secuencia de ADN se copia a una molécula de ARN, específicamente ARN mensajero (ARNm). Este proceso es fundamental para la síntesis de proteínas y se lleva a cabo en el núcleo de las células eucariotas',
+        'Enfoque psicológico y educativo que enfatiza cómo los individuos construyen su conocimiento a través de la interacción con su entorno y la integración de nuevas experiencias con conocimientos previos. Esta teoría se basa en la premisa de que el aprendizaje es un proceso activo y no pasivo',
     },
   ],
   complementario: [

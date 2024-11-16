@@ -1,9 +1,8 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'FUNDAMENTACIÓN JURÍDICA - unidad 1'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'Unidad 2. Desarrollo físico, cognitivo y emocional en las etapas de la infancia y adolescencia'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La Unidad 1, "Bases genéticas del desarrollo humano", explora los fundamentos genéticos y biológicos que sustentan el desarrollo humano. Inicia con una revisión de la célula como unidad fundamental de la vida y su información genética contenida en el ADN. Se analiza cómo el ADN y los procesos de herencia influyen en las características y el desarrollo de los individuos, desde la diferenciación celular hasta la formación de tejidos y órganos.
-    p.mb-4.mb-md-5 Esta unidad establece una base sólida para entender el impacto de los factores genéticos y ambientales en el desarrollo cognitivo, emocional y conductual, proporcionando a los estudiantes conocimientos aplicables en contextos educativos y clínicos. Este enfoque integral les permitirá interpretar y aplicar conceptos biológicos para comprender el desarrollo humano en su totalidad.
+    p.mb-4.mb-md-5 La Unidad 2 de Biología del Desarrollo Humano profundiza en los cambios físicos, cognitivos y emocionales que caracterizan las etapas de la infancia y adolescencia, así como en los factores que influyen en estos procesos. A lo largo de la unidad, se abordan hitos clave del desarrollo y se exploran estrategias de intervención educativa y psicológica para promover un crecimiento saludable. Este enfoque permite a los estudiantes entender las bases del desarrollo humano y aplicar conceptos prácticos para apoyar el bienestar de niños y adolescentes en diferentes contextos.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

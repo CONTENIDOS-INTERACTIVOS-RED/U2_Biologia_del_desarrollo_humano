@@ -34,23 +34,40 @@
 
 .bg-rojo-claro
   background-color: #FCDFDB
+
+.bg-azul
+  background-color: #DBEBF6
+.bg-azul-1
+  background-color: #EDF3FC
 .bg-azul-claro
   background-color: #DBE7FC
+
 .bg-rosa
   background-color: #F9E4FE
+
 .bg-amarillo
+  background-color: #FEF6E9
+.bg-amarillo-oscuro
   background-color: #FDF3D2
+
 .bg-gris
   background-color: #E2E9F3
 .bg-gris-claro
   background-color: #F5F7FB
 .bg-gris-claro-2
   background-color: #EBF0F7
+.bg-gris-claro-3
+  background-color: #F3F3F3
+
 .bg-morado
   background-color: #5830E2
-.bg-modaro-oscuro
+.bg-morado:hover
+  background-color: #5830E2
+.bg-morado-oscuro
   background-color: #301A7B
-.bg-modaro-claro
+.bg-morado-oscuro-2
+  background-color: #6E008A
+.bg-morado-claro
   background-color: #EDE9FB
 
 .border-none
@@ -58,6 +75,12 @@
 
 .border-left-gris
   border-left: 1px solid #D9D9D9 !important
+.border-top-gris
+  border-top: 1px solid #D9D9D9 !important
+.border-bottom-gris
+  border-bottom: 1px solid #D9D9D9 !important
+.border-bottom-gris-2
+  border-bottom: 1px solid #586577 !important
 .rounded-8px
   border-radius: 8px
 
@@ -74,7 +97,13 @@
 // BG FONDO
 .bg-fondo
   &-1
-    background-image: url("../assets/componentes/bg-1.png") !important
+    background-image: url("../assets/componentes/bg-1.svg") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/componentes/bg-2.png") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/componentes/bg-3.svg") !important
     background-position: top
 
 .bg-full-width
@@ -85,13 +114,15 @@
 // ACORDEON
 .acordion__header
   background-color: #F9E4FE!important
+  h4
+    font-weight: 400 !important
 .acordion__contenido
   background-color: #F9E4FE!important  
 .acordion__header--active
   background-color: #6E008A!important
   h4, i
     color: $white !important
-    font-weight: bold
+    font-weight: bold !important
 
 $custom-card-border-radius: 8px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)

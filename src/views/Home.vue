@@ -20,10 +20,10 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Bases genéticas del desarrollo humano
+              p.home-main-title Desarrollo físico, cognitivo y emocional en las etapas de <br>la infancia y adolescencia
               h1.home-title.mb-4.text-uppercase Biología del Desarrollo Humano
-              p.descripcion.mb-3 Desde el origen de la vida, el conocimiento sobre la genética ha sido fundamental para comprender la evolución y el desarrollo de los seres humanos. En esta primera unidad, se estudiarán las bases genéticas del desarrollo humano, analizando cómo, a partir de una única célula, el cigoto, se inician procesos de diferenciación que llevan a la formación de tejidos y órganos en el ser humano.
-              p.descripcion.mb-4 Se explorarán temas como los principios de la genética humana y la herencia, el rol del ADN y las células en la transmisión de características, y la influencia de factores genéticos y ambientales en el desarrollo cognitivo, emocional y conductual. Este conocimiento permitirá a los estudiantes aplicar conceptos biológicos en contextos educativos y clínicos.
+              p.descripcion.mb-3 Desde el desarrollo embrionario y a lo largo de toda la vida, los seres humanos experimentan cambios físicos, cognitivos y emocionales que reflejan su crecimiento y adaptación al entorno. En esta unidad, exploraremos las características clave de estas etapas, comprendiendo los hitos que definen el desarrollo en la infancia y adolescencia. Además, se analizarán estrategias de intervención educativa y psicológica que promuevan un crecimiento saludable en estas etapas.
+              p.descripcion.mb-4.text-bold ¡Prepárate para profundizar en el fascinante proceso del desarrollo humano y en cómo apoyar su evolución de manera efectiva!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
