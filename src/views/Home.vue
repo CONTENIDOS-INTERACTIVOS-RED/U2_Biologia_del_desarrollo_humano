@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title.text-uppercase Biología del Desarrollo Humano
-              h1.home-title.mb-4.text-uppercase Desarrollo físico, cognitivo y emocional en las etapas de la infancia y adolescencia
+              p.home-main-title.text-uppercase Unidad 2
+              h1.home-title.mb-4 Desarrollo físico, cognitivo y emocional en las etapas de la infancia y adolescencia
               p.descripcion.mb-3 Desde el desarrollo embrionario y a lo largo de toda la vida, los seres humanos experimentan cambios físicos, cognitivos y emocionales que reflejan su crecimiento y adaptación al entorno. En esta unidad, exploraremos las características clave de estas etapas, comprendiendo los hitos que definen el desarrollo en la infancia y adolescencia. Además, se analizarán estrategias de intervención educativa y psicológica que promuevan un crecimiento saludable en estas etapas.
               p.descripcion.mb-4.text-bold ¡Prepárate para profundizar en el fascinante proceso del desarrollo humano y en cómo apoyar su evolución de manera efectiva!
 

@@ -13,6 +13,7 @@
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')  
 
+    p.mb-4 Este término se refiere a la capacidad que tiene el sistema nervioso, incluyendo el cerebro, de adaptar y cambiar la estructura y su funcionamiento, de acuerdo con las condiciones e interacciones con el entorno y a lo largo de todas las etapas del desarrollo. 
     .row.mb-5
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-azul.px-3.py-4
@@ -87,10 +88,10 @@
           p.mb-0 Aprender a interpretar algún instrumento musical o artes. 
         div.d-flex
           img.mt-1.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/template/arrow.svg', alt='Texto que describa la imagen')
-          p.mb-0  Desarrollar actividades físicas – ejercicio
+          p.mb-0  Desarrollar actividades físicas – ejercicio.
         div.d-flex
           img.mt-1.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/template/arrow.svg', alt='Texto que describa la imagen')
-          p.mb-0  Diseñar o participar en proyectos
+          p.mb-0  Diseñar o participar en proyectos.
         div.d-flex
           img.mt-1.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/template/arrow.svg', alt='Texto que describa la imagen')
           p.mb-0  Descansar y tener buenas rutinas de sueño.
@@ -126,17 +127,10 @@
 
 
     .row.mb-4
-      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
+      .col-8.col-md-6.col-xl-4.mb-3.mb-xl-0.mx-auto.px-0(data-aos="fade-right")
         img.h-100(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-gris-claro-2.p-4.p-xxl-5(data-aos="fade-left")
         p.mb-4 Por este motivo, si un niño/a presenta dificultades atencionales, motoras, de lenguaje o del control inhibitorio, por causas madurativas o por algún tipo de daño, es muy importante comenzar con la estimulación o rehabilitación de dichas funciones, de la forma más temprana posible.
-
-    .row.mb-5
-      .d-flex.align-items-center
-        div.d-flex.align-items-center.bg-morado-oscuro-2.px-3.py-4
-          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-26.svg', alt='Texto que describa la imagen')
-          p.pe-xl-5.mb-0.text-white Por este motivo, si un niño/a presenta dificultades atencionales, motoras, de lenguaje o del control inhibitorio, por causas madurativas o por algún tipo de daño, es muy importante comenzar con la estimulación o rehabilitación de dichas funciones, de la forma más temprana posible.
-
 
     #t_2_1.titulo-segundo
       div.d-flex
@@ -174,14 +168,14 @@
               img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
 
           .tarjeta.bg-white.p-4(x="60%" y="20%" numero="+")
-            .h5.mb-2 Adolescencia temprana
-            p De los 10 hasta los 13 años, a partir de cambios físicos y emocionales.
+            .h5.mb-2 Adolescencia media
+            p Desde los 14 hasta los 16 años, donde se destaca la búsqueda de identidad y la referencia de algunos conflictos sociales y familiares.
           .tarjeta.bg-white.p-4(x="73%" y="70%" numero="+")
             .h5.mb-2 Adolescencia tardía
             p De los 17 hasta los 19 o 21 años, donde se consolida la identidad y se establecen relaciones más profundas.
           .tarjeta.bg-white.p-4(x="26%" y="70%" numero="+")
-            .h5.mb-2 Adolescencia media
-            p Desde los 14 hasta los 16 años, donde se destaca la búsqueda de identidad y la referencia de algunos conflictos sociales y familiares.
+            .h5.mb-2 Adolescencia temprana
+            p De los 10 hasta los 13 años, a partir de cambios físicos y emocionales.
         p.mb-4 En relación con los:
         .row
           .col-10.col-lg-6.mb-4.mx-auto.mb-4(data-aos="fade-right")
@@ -219,7 +213,7 @@
     #t_2_3.titulo-segundo
       div.d-flex
         span.me-3 2.3  
-        h2 Trastornos del desarrollo: factores de riesgo y estrategias de ntervención
+        h2 Trastornos del desarrollo: factores de riesgo y estrategias de intervención
 
     .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
@@ -229,7 +223,7 @@
 
     p.mb-5 Dentro de los trastornos están los que corresponden al <strong>aprendizaje</strong> y al <strong>desarrollo</strong>, como veremos a continuación:
 
-    p.mb-4 <strong>Tabla 1.</strong> Tipos de alelos
+    p.mb-4 <strong>Tabla 2.</strong> Tabla diferencial sobre algunos tipos de trastornos asociados al aprendizaje y el desarrollo
 
     .tabla-a.mb-5
       table
@@ -297,8 +291,6 @@
         img.h-100(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8.d-flex.align-items-center.bg-rosa.p-4(data-aos="fade-left")
         p.mb-0(data-aos="fade-up") La estimulación temprana se refiere al conjunto de actividades, acciones y dinámicas de atención que se le da al infante en las primeras etapas de su vida, con el propósito de potenciar y desarrollar, al máximo, sus habilidades físicas, intelectuales y psicosociales, mediante programas sistemáticos y secuenciados, que abarcan todas las áreas del desarrollo.
-
-    p.mb-4 La estimulación temprana se refiere al conjunto de actividades, acciones y dinámicas de atención que se le da al infante en las primeras etapas de su vida, con el propósito de potenciar y desarrollar, al máximo, sus habilidades físicas, intelectuales y psicosociales, mediante programas sistemáticos y secuenciados, que abarcan todas las áreas del desarrollo.
 
     .row.mb-4
       .col-12.col-xl-8.d-flex.flex-column.justify-content-center(data-aos="fade-right")
@@ -371,14 +363,11 @@
             p.mb-0 Hiperactividad o hipoactividad.
           div.d-flex
             img.mt-1.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/template/arrow.svg', alt='Texto que describa la imagen')
-            p.mb-0 Dificultades atencionales y para concentrarse, impulsividad, conductas desafiantes,
-          div.d-flex
-            img.mt-1.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/template/arrow.svg', alt='Texto que describa la imagen')
-            p.mb-0 Somatizaciones, ansiedad.
+            p.mb-0 Dificultades atencionales y para concentrarse, impulsividad, conductas desafiantes, somatizaciones, ansiedad.
 
     p.mb-4 Al momento de prevenir, es clave situarse sobre las posibles causas de situaciones de estrés en niños y jóvenes:
 
-    .row
+    .row.mb-5
       .col-12.col-xl-8.d-flex.flex-column.justify-content-center(data-aos="fade-right")
         .d-flex.flex-column.justify-content-center.bg-amarillo-oscuro.p-4.px-xxl-5.h-100
           p.mb-4.text-bold Signos que aparecen en niños y jóvenes expuestos a situaciones de estrés y que pueden variar en función de la edad:
@@ -405,6 +394,21 @@
             p.mb-0 Inadecuada gestión emocional (capacidad para tolerar la frustración, controlar los impulsos, ansiedad y tristeza).
       .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
         img.h-100(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.archivosdemedicina.com/medicina-de-familia/neurofisiologa-del-aprendizaje-y-la-memoria-plasticidad-neuronal.pdf") ORTEGA, C. FRANCO, J. (2010). Neurofisiología del aprendizaje y la memoria. Plasticidad Neuronal.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/WxTn5ABTBAM") Haztelalista (2018). ¿Cómo funciona el cerebro de un adolescente? [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

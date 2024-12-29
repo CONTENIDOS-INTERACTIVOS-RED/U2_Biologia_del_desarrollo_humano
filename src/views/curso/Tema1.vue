@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'1. Bases genéticas del desarrollo humano'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 2. Desarrollo físico, cognitivo y emocional en las etapas de la infancia y adolescencia'" :subTitulo="'1. Desarrollo físico, cognitivo y emocional en las etapas de la infancia y adolescencia'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-4 De acuerdo con las denominaciones en los estudios de embriología humana, la fase o etapa prenatal se describe como: aquella que ocurre en el vientre materno, en la que el embrión comienza su proceso de desarrollo hasta convertirse en un bebé completamente formado. Esta etapa incluye:
     .bg-fondo-1.bg-full-width
@@ -31,6 +31,7 @@
               .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0(data-aos="fade-left")
                 h4 Período fetal
                 p(data-aos="fade-up") En la que los órganos se forman y maduran. Esta etapa de desarrollo comienza aproximadamente a las 12 semanas de gestación y termina con el nacimiento del bebé.
+        p.mb-4 De aquí en adelante, el ambiente cambiante exterior al vientre materno, continúa su incidencia en las cualidades genotípicas y fenotípicas del individuo. El crecimiento y desarrollo de los niños y jóvenes, se describen por etapas, las cuales se pueden identificar de la siguiente manera:
 
         .row.mb-5
           .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-right")
@@ -136,7 +137,7 @@
         img.h-100(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
     p.mb-4.text-bold A continuación, se presentan algunos ejemplos donde observamos las diferencias entre la asimilación de la acomodación: 
 
-    p.mb-3 <strong>Tabla 1</strong>. Tipos de alelos
+    p.mb-3 <strong>Tabla 1</strong>. Asimilación vs. Acomodación
 
     .tabla-a.mb-5
       table
@@ -192,6 +193,21 @@
              
         .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.guao.org/sites/default/files/portafolio%20docente/Teor%C3%ADa%20del%20desarrollo%20de%20Piaget.pdf") MEECE, J. (2000). Desarrollo del niño y del adolescente. Teoría del desarrollo cognoscitivo de Piaget.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/Nfp7NnstfA8") Universidad continental. (2021). Desarrollo durante la infancia [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

@@ -83,14 +83,20 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        unidad: '',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividadDidactica',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -107,19 +113,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Biologia_desarrollo_humano_U2.zip',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
@@ -152,97 +148,97 @@ export default {
     {
       termino: 'Acomodación',
       significado:
-        'Concepto fundamental en la teoría del desarrollo cognitivo de Jean Piaget, que se refiere al proceso mediante el cual un individuo ajusta sus esquemas mentales para integrar nueva información o experiencias',
+        'Concepto fundamental en la teoría del desarrollo cognitivo de Jean Piaget, que se refiere al proceso mediante el cual un individuo ajusta sus esquemas mentales para integrar nueva información o experiencias.',
     },
     {
       termino: 'Adolescencia',
       significado:
-        'Periodo del desarrollo humano que se sitúa entre la niñez y la adultez, caracterizado por intensos cambios biológicos, psicológicos y sociales. Inicia con la pubertad, que generalmente comienza entre los 10 y 13 años, y se extiende hasta los 19 o 21 años, dependiendo de diversas fuentes y contextos culturales',
+        'Periodo del desarrollo humano que se sitúa entre la niñez y la adultez, caracterizado por intensos cambios biológicos, psicológicos y sociales. Inicia con la pubertad, que generalmente comienza entre los 10 y 13 años, y se extiende hasta los 19 o 21 años, dependiendo de diversas fuentes y contextos culturales.',
     },
     {
       termino: 'Asimilación',
       significado:
-        'Se refiere al proceso mediante el cual un organismo o individuo integra nueva información o elementos en estructuras preexistentes. En el ámbito psicológico, la asimilación fue introducida por Jean Piaget como parte de su teoría del desarrollo cognitivo. Este proceso implica la incorporación de nueva información a esquemas mentales ya existentes sin modificar estos esquemas',
+        'Se refiere al proceso mediante el cual un organismo o individuo integra nueva información o elementos en estructuras preexistentes. En el ámbito psicológico, la asimilación fue introducida por Jean Piaget como parte de su teoría del desarrollo cognitivo. Este proceso implica la incorporación de nueva información a esquemas mentales ya existentes sin modificar estos esquemas.',
     },
     {
       termino: 'Desarrollo Cognitivo',
       significado:
-        'Se refiere a la progresión de las capacidades intelectuales, que incluyen la percepción, el razonamiento, la memoria, el lenguaje y la resolución de problemas. Este proceso es esencial para el aprendizaje y se basa en la interacción entre el individuo y su entorno. A medida que los niños crecen, desarrollan habilidades tanto motoras como cognitivas que les permiten interactuar con su mundo de manera más efectiva',
+        'Se refiere a la progresión de las capacidades intelectuales, que incluyen la percepción, el razonamiento, la memoria, el lenguaje y la resolución de problemas. Este proceso es esencial para el aprendizaje y se basa en la interacción entre el individuo y su entorno. A medida que los niños crecen, desarrollan habilidades tanto motoras como cognitivas que les permiten interactuar con su mundo de manera más efectiva.',
     },
     {
       termino: 'Desarrollo Emocional',
       significado:
-        'Asociado con la capacidad de un niño para reconocer y manejar sus emociones y responder adecuadamente a las emociones de los demás. Es un proceso gradual e integrativo, comenzando desde el nacimiento y continuando a lo largo de la infancia y la adolescencia. A través de interacciones significativas con sus cuidadores y pares, los niños aprenden a identificar sus sentimientos y a desarrollar habilidades como la empatía y la regulación emocional',
+        'Asociado con la capacidad de un niño para reconocer y manejar sus emociones y responder adecuadamente a las emociones de los demás. Es un proceso gradual e integrativo, comenzando desde el nacimiento y continuando a lo largo de la infancia y la adolescencia. A través de interacciones significativas con sus cuidadores y pares, los niños aprenden a identificar sus sentimientos y a desarrollar habilidades como la empatía y la regulación emocional.',
     },
     {
       termino: 'Desarrollo Físico',
       significado:
-        'Se manifiesta a través de cambios significativos en las habilidades motoras, la fuerza, la resistencia y la salud general. Este desarrollo se puede dividir en diferentes etapas, según la edad y las necesidades específicas',
+        'Se manifiesta a través de cambios significativos en las habilidades motoras, la fuerza, la resistencia y la salud general. Este desarrollo se puede dividir en diferentes etapas, según la edad y las necesidades específicas.',
     },
     {
       termino: 'Determinismo biológico',
       significado:
-        'Pensamiento que sostiene que el comportamiento humano y los fenómenos sociales son el resultado directo de factores biológicos, principalmente genéticos. Esta perspectiva se ha utilizado para explicar diversas desigualdades sociales, como la pobreza, la violencia y las diferencias de género, atribuyendo estas condiciones a características innatas de los individuos o grupos',
+        'Pensamiento que sostiene que el comportamiento humano y los fenómenos sociales son el resultado directo de factores biológicos, principalmente genéticos. Esta perspectiva se ha utilizado para explicar diversas desigualdades sociales, como la pobreza, la violencia y las diferencias de género, atribuyendo estas condiciones a características innatas de los individuos o grupos.',
     },
     {
       termino: 'Estadios',
       significado:
-        'Etapas son universales y se caracterizan por cambios cualitativos en la forma de pensar y entender el mundo',
+        'Etapas son universales y se caracterizan por cambios cualitativos en la forma de pensar y entender el mundo.',
     },
     {
       termino: 'Infancia',
       significado:
-        'Abarca desde el nacimiento hasta el inicio de la pubertad, generalmente considerado alrededor de los 11 a 14 años',
+        'Abarca desde el nacimiento hasta el inicio de la pubertad, generalmente considerado alrededor de los 11 a 14 años.',
     },
     {
       termino: 'Inteligencia',
       significado:
-        'Capacidad de comprender, razonar, resolver problemas y adaptarse a nuevas situaciones. Se ha definido de diversas maneras a lo largo de la historia, abarcando desde habilidades cognitivas hasta aspectos emocionales y creativos',
+        'Capacidad de comprender, razonar, resolver problemas y adaptarse a nuevas situaciones. Se ha definido de diversas maneras a lo largo de la historia, abarcando desde habilidades cognitivas hasta aspectos emocionales y creativos.',
     },
     {
       termino: 'Intervención Educativa',
       significado:
-        'Conjunto de acciones planificadas y específicas diseñadas para abordar las necesidades educativas de los estudiantes. Su objetivo es facilitar el aprendizaje y el desarrollo integral del alumnado, especialmente en situaciones donde se identifican dificultades académicas, emocionales o conductuales',
+        'Conjunto de acciones planificadas y específicas diseñadas para abordar las necesidades educativas de los estudiantes. Su objetivo es facilitar el aprendizaje y el desarrollo integral del alumnado, especialmente en situaciones donde se identifican dificultades académicas, emocionales o conductuales.',
     },
     {
       termino: 'Intervención Psicológica',
       significado:
-        'Aplicación de principios y técnicas psicológicas por parte de profesionales acreditados, con el objetivo de ayudar a individuos o grupos a comprender y superar problemas emocionales, conductuales o psicosociales. Esta práctica se basa en una evaluación exhaustiva de las dificultades del paciente y busca mejorar su bienestar general y sus relaciones interpersonales',
+        'Aplicación de principios y técnicas psicológicas por parte de profesionales acreditados, con el objetivo de ayudar a individuos o grupos a comprender y superar problemas emocionales, conductuales o psicosociales. Esta práctica se basa en una evaluación exhaustiva de las dificultades del paciente y busca mejorar su bienestar general y sus relaciones interpersonales.',
     },
     {
       termino: 'Neurogénesis',
       significado:
-        'Proceso mediante el cual se generan nuevas neuronas a partir de células madre y progenitoras. Este fenómeno es crucial durante el desarrollo embrionario, pero investigaciones recientes han demostrado que también ocurre en el cerebro adulto, aunque en menor medida',
+        'Proceso mediante el cual se generan nuevas neuronas a partir de células madre y progenitoras. Este fenómeno es crucial durante el desarrollo embrionario, pero investigaciones recientes han demostrado que también ocurre en el cerebro adulto, aunque en menor medida.',
     },
     {
       termino: 'Neuronas',
       significado:
-        'Células altamente especializadas que constituyen la unidad funcional del sistema nervioso. Su principal función es recibir, procesar y transmitir información mediante señales eléctricas y químicas',
+        'Células altamente especializadas que constituyen la unidad funcional del sistema nervioso. Su principal función es recibir, procesar y transmitir información mediante señales eléctricas y químicas.',
     },
     {
       termino: 'Plasticidad Neuronal',
       significado:
-        'También conocida como neuroplasticidad, se refiere a la capacidad del sistema nervioso para cambiar su estructura y funcionamiento a lo largo de la vida. Este fenómeno es fundamental para el aprendizaje, la memoria y la recuperación de lesiones, permitiendo que las neuronas forman nuevas conexiones y se adapten a nuevas experiencias',
+        'También conocida como neuroplasticidad, se refiere a la capacidad del sistema nervioso para cambiar su estructura y funcionamiento a lo largo de la vida. Este fenómeno es fundamental para el aprendizaje, la memoria y la recuperación de lesiones, permitiendo que las neuronas forman nuevas conexiones y se adapten a nuevas experiencias.',
     },
     {
       termino: 'Poda Sináptica',
       significado:
-        'Es un proceso biológico que ocurre en el cerebro, durante las etapas de desarrollo infantil y adolescente. Implica la eliminación de conexiones sinápticas que se consideran innecesarias o débiles, permitiendo así que las conexiones más fuertes se fortalezcan y optimicen la comunicación neuronal',
+        'Es un proceso biológico que ocurre en el cerebro, durante las etapas de desarrollo infantil y adolescente. Implica la eliminación de conexiones sinápticas que se consideran innecesarias o débiles, permitiendo así que las conexiones más fuertes se fortalezcan y optimicen la comunicación neuronal.',
     },
     {
       termino: 'Psicología evolutiva',
       significado:
-        'Rama de la psicología que estudia el desarrollo humano, desde el nacimiento hasta la vejez. Su objetivo es comprender cómo los cambios psicológicos afectan a las personas en diferentes etapas de su vida y cómo estos cambios son influenciados por factores biológicos y ambientales',
+        'Rama de la psicología que estudia el desarrollo humano, desde el nacimiento hasta la vejez. Su objetivo es comprender cómo los cambios psicológicos afectan a las personas en diferentes etapas de su vida y cómo estos cambios son influenciados por factores biológicos y ambientales.',
     },
     {
       termino: 'Sinapsis',
       significado:
-        'Proceso en la comunicación neuronal, que permite la transmisión de impulsos nerviosos entre neuronas o entre una neurona y otra célula, como una célula muscular o glandular',
+        'Proceso en la comunicación neuronal, que permite la transmisión de impulsos nerviosos entre neuronas o entre una neurona y otra célula, como una célula muscular o glandular.',
     },
     {
       termino: 'Teoría cognitiva constructivista',
       significado:
-        'Enfoque psicológico y educativo que enfatiza cómo los individuos construyen su conocimiento a través de la interacción con su entorno y la integración de nuevas experiencias con conocimientos previos. Esta teoría se basa en la premisa de que el aprendizaje es un proceso activo y no pasivo',
+        'Enfoque psicológico y educativo que enfatiza cómo los individuos construyen su conocimiento a través de la interacción con su entorno y la integración de nuevas experiencias con conocimientos previos. Esta teoría se basa en la premisa de que el aprendizaje es un proceso activo y no pasivo.',
     },
   ],
   complementario: [
